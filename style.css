@@ -1,0 +1,305 @@
+body{
+	
+	padding: 0;
+	margin: 0;
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 15px;
+}
+
+h1, h2, h3{
+	margin: 0;
+	font-family: 'Ubuntu', sans-serif;	
+}
+
+h1{
+	font-size: 37px;
+	font-weight: 700;
+	width: 560px;
+	margin: 0;
+	margin-top: 150px;
+	margin-bottom: 46px;
+	padding: 0;
+}
+
+span{
+	font-size: 59px;
+	font-weight: 700;
+}
+
+
+}
+
+.travel-icon{
+
+	margin-top: 90px;
+	width: 520px;
+	height: 520px;
+}
+
+.bio{	
+	font-size: 16px;
+	width: 385px;	
+}
+div, p, input, button, form, span, a, ul, li {
+	box-sizing: border-box;}
+
+
+.container{
+	width: 1170px;
+	margin: 0 auto;
+
+	/*padding-top: 110px;*/
+	/*padding-bottom: 110px;*/
+}
+section{padding-top: 110px;
+padding-bottom: 110px;}
+
+
+.wrapper{
+	justify-content: center;
+	display: flex;
+	align-items: center;
+
+}
+
+.button:hover{
+	opacity: 60%;	
+}
+
+.button{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 15px;
+	font-weight: 900;
+	width: 223px;
+	background-color: #ffd429;
+	color: #2e2a1b;	
+	display: block;
+	text-align: center;
+	padding: 20px 0;
+	text-decoration: none;
+	margin-top: 40px;
+	margin-bottom: 210px;
+	border: none;
+}
+
+header{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 16px;
+	padding-bottom: 0;
+	background: rgba(75,186,251,1);
+	background: -moz-linear-gradient(left, rgba(75,186,251,1) 0%, rgba(55,144,217,1) 100%);
+	background: -webkit-gradient(left top, right top, color-stop(0%, rgba(75,186,251,1)), color-stop(100%, rgba(55,144,217,1)));
+	background: -webkit-linear-gradient(left, rgba(75,186,251,1) 0%, rgba(55,144,217,1) 100%);
+	background: -o-linear-gradient(left, rgba(75,186,251,1) 0%, rgba(55,144,217,1) 100%);
+	background: -ms-linear-gradient(left, rgba(75,186,251,1) 0%, rgba(55,144,217,1) 100%);
+	background: linear-gradient(to right, rgba(75,186,251,1) 0%, rgba(55,144,217,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4bbafb', endColorstr='#3790d9', GradientType=1 );
+	color: white;
+}	
+.logo{
+	padding: 0;
+	padding-top: 60px;
+
+}
+
+.features{
+	display: flex;
+	justify-content: space-between;
+
+}
+
+
+
+.feature{
+
+	text-align: center;
+}
+
+h2{
+	text-align: center;	
+	font-weight: 700;
+	font-size: 30px;
+	margin-bottom: 60px;
+	
+}
+
+h3{
+	font-weight: 700;
+	font-size: 19px;	
+	margin-top: 10px;	
+}
+
+p{
+	margin: 0;	
+	line-height: 1.6em;	
+}
+
+input{
+	width: 320px;
+	height: 45px;
+	background-color: #fff;
+	border: 1px solid #bbbbbb;	
+	display: block;
+	margin-bottom: 16px;
+	margin-left: auto;
+	margin-right: auto;
+	padding-left: 16px;
+
+}
+
+.form{
+padding-top: 110px;	
+background-color: #ecf3f8;	
+}
+
+.button-in-form{
+	width: 340px;
+	height: 45px;
+	margin: 0 auto;
+	padding: 0;
+	cursor: pointer;
+}
+
+.button-in-form:hover{
+	opacity: 60%;	
+}
+
+.credits{
+	padding-top: 62px;
+	padding-bottom: 62px;
+	margin: 0;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 14px;
+	color: #fff;
+	text-align: center;
+}
+
+
+
+footer{
+	padding: 0;
+	background-color: #164d7a;	
+}
+
+/* 992px - 1200px */
+@media screen and (max-width: 1200px) {
+.container{
+	
+		width: 960px;
+	}
+
+.travel-icon{
+	width: 400px;
+	height: auto;
+}	
+.wrapper{
+	width: 960px;
+}
+
+}
+
+/* 768px - 992px */
+@media screen and (max-width: 992px) {
+.container{
+		width: 720px;
+	}
+p{
+margin: 0 auto;
+}
+
+.wrapper{
+	text-align: center;
+	width: 740px;
+	flex-direction: column;
+	justify-content: center;
+}
+.travel-icon{
+	width: 520px;
+	height: auto;
+	margin-top: 0;
+}
+.features{
+	flex-direction: column;
+}
+.button{
+	margin: 0 auto;
+	margin-top: 30px;
+}
+.feature{
+	margin-bottom: 30px;
+}
+
+
+/* 576px - 768px */
+@media screen and (max-width: 768px) {
+	.container{
+		width: 540px;
+	}
+	.wrapper{
+		width: 540px;
+	}
+	br{
+		display: none;
+	}
+
+	h1{
+		width: 490px;
+		font-size: 32px;
+	}
+
+}
+
+/* 320px - 576px */
+@media screen and (max-width: 576px) {
+	.container{
+		width:90%;
+	}
+	.wrapper{
+		width: 90%;
+	}
+	.travel-icon{
+	width: 200px;
+	height: auto;
+	margin-top: 0;
+}
+.info{
+	
+	width: auto;
+}
+h1{
+		width: 250px;
+		font-size: 28px;
+		
+	}
+	span{
+		font-size: 36px;
+	}
+	.bio{
+		width: 250px;
+	}
+
+	input{
+		width: 90%;
+	font-size: 12px;
+	}
+	.button-in-form{
+		width: 90%;
+	}
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
