@@ -1,0 +1,65 @@
+.carousel{
+    padding: 0;
+    padding-top: 70px;
+    background-color: #f6f6f6;
+    width: 80%;
+    margin: 0 auto;
+    &__card{
+        background-color: #fafafa;
+        width: 250px;
+        margin-right: 10px;
+        margin-left: 10px;
+        padding-bottom: 30px;
+        transition: 0.5s all;
+        &:hover{
+            box-shadow: 0 0 5px 5px $main;
+        }
+    }
+    &__img{
+        width: 100%;
+    }
+    &__name{
+        font-family: Georgia;
+        font-size: 20px;
+        text-align: center;
+    }
+    &__button{
+        background-color: #fff;
+        margin: 0 auto;
+        transition: 0.5s all;
+        &:hover{
+            background-color: $main;
+        }
+    }
+    &__prev, &__next{
+        border: 2px solid $main;
+        border-radius: 50%;
+        font-size: 25px;
+        padding: 0 10px 5px;
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        background-color: #fff;
+        &:hover{
+            background-color: $main;
+        }
+        &:active{
+            border: 2px solid $main;
+            opacity: 0.6;
+        }
+        &:focus{
+            border: 2px solid $main;
+            opacity: 0.8; 
+        }
+    }
+    &__prev{
+        left: -80px;
+    }
+   &__next{
+        right: -80px;
+    }
+}
+
+.slick-list{
+    padding: 10px 0;
+}
