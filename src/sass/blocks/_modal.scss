@@ -1,0 +1,100 @@
+.fade{
+    display: none;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(250, 250, 250, 0.85);
+    top: 0;
+}
+
+.modal{
+    width: 750px;
+    border: none;
+    padding: 0;
+    border-radius: 9px;
+    box-shadow: 0px 2px 30.1px 4.9px rgba(13, 13, 13, 0.04);
+    background-color: #fafafa;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+        &__wrapper{
+        padding: 45px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        &_big{
+            flex-wrap: wrap;
+            padding: 5px 5px 10px;
+        }
+    }
+    &__title{
+        font-family: Georgia;
+        font-size: 26px;
+        font-weight: 600;
+        text-align: left;
+        color: $text;
+    }
+    &__subtitle{
+        margin-top: 20px;
+        font-family: Georgia;
+        font-size: 22px;
+        color: $text ;
+        text-align: left;
+    }
+    &__descr{
+        font-family: Arial;
+        font-size: 15px;
+        color: $text;
+        margin-top: 33px;
+        text-align: left;
+    }
+    &__features{
+        list-style-type: none;
+        padding-left: 0;
+    }
+    &__feature{
+        font-family: Arial;
+        font-size: 15px;
+        color: $text;
+        span{
+            font-weight: 600;
+        }
+    }
+    &__close{
+        position: absolute;
+        top: -30px;
+        right: -50px;
+        width: 30px;
+        height: 30px;
+        border: 3px solid $main;
+        border-radius: 26px;
+        background-color: none;
+        font-size: 10px;
+        color: $main;
+    }
+    // modal#pets
+    &__card{
+        margin: 5px;
+        padding: 0;
+        width: 30%;
+        height: 250px;
+        &:hover{
+            box-shadow: 0 0 5px 5px $main;
+        }
+    }
+    &__name{
+        text-align: center;
+    }
+    &__img{
+        display: block;
+        margin: 0 auto;
+        &_big{
+            height: 200px;
+        }
+    }
+}
+
+#pet, #pets{
+    display: none;
+}

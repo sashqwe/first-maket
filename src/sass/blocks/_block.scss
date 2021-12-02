@@ -1,0 +1,39 @@
+.block{
+    width: 300px;
+    &:first-child{
+        margin-right: 150px;
+    }
+    &__title{
+        font-family: Georgia;
+        font-size: 35px;
+        font-weight: normal;
+        color: #fff;
+    }
+    &__info{
+        margin-top: 45px;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        &_mt34{
+            margin-top: 34px;
+            line-height: 20px;
+        }
+        // &_mt28{
+        //     margin-top: 28px;
+        // }
+    }
+    &__icon{
+        margin-right: 30px;
+    }
+    &__link{
+        font-family: TimesNewRomanPSMT;
+        font-size: 20px;
+        font-weight: normal;
+        color: $main;
+        text-decoration: none;
+        &:hover{
+            text-decoration: none;
+            color: $main;
+        }
+    }
+}
