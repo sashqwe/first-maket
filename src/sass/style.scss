@@ -9,7 +9,7 @@
 .btn{
     display: block;
     border-radius: 26px;
-    background-color: $main;
+    background-color: rgb(240, 62, 225);
     padding: 8px 30px;
     font-family: Georgia;
     font-size: 17px;
@@ -17,7 +17,6 @@
     border: 2px solid $main;
 }
 
-@import 'base/variables';
 @import 'blocks/header';
 @import 'blocks/about';
 @import 'blocks/pets';
